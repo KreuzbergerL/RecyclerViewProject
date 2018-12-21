@@ -23,8 +23,22 @@ Wir brauchen nur noch eine Klasse für den Adapter*/
         setContentView(R.layout.activity_main);
 //---------------------------ArrayList erstellen und die Items einfügen--------------------
         ArrayList<ExampleItem> exampleList = new ArrayList<>();
-        exampleList.add(new ExampleItem(R.mipmap.punkt3, "11.10.2018 - 11.11.2018", "Ultraschalluntersuchung"));  //Line 1 und Line 2 sind dann Datum und Untersuchung
-        exampleList.add(new ExampleItem(R.mipmap.punkt3, "18.1.2019 - 4.3.2019", "Hüftuntersuchung"));
+        exampleList.add(new ExampleItem(R.mipmap.punkt_done_begin, "11.10.2018 - 11.11.2018", "Ultraschalluntersuchung"));  //Line 1 und Line 2 sind dann Datum und Untersuchung
+        exampleList.add(new ExampleItem(R.mipmap.punkt_done, "18.1.2019 - 4.3.2019", "Hüftuntersuchung"));
+        exampleList.add(new ExampleItem(R.mipmap.punkt_done, "18.1.2019 - 4.3.2019", "Hüftuntersuchung"));
+        exampleList.add(new ExampleItem(R.mipmap.punkt_done, "18.1.2019 - 4.3.2019", "Hüftuntersuchung"));
+        exampleList.add(new ExampleItem(R.mipmap.punkt_done, "11.10.2018 - 11.11.2018", "Ultraschalluntersuchung"));  //Line 1 und Line 2 sind dann Datum und Untersuchung
+        exampleList.add(new ExampleItem(R.mipmap.punkt_done, "18.1.2019 - 4.3.2019", "Hüftuntersuchung"));
+        exampleList.add(new ExampleItem(R.mipmap.punkt_done, "18.1.2019 - 4.3.2019", "Hüftuntersuchung"));
+        exampleList.add(new ExampleItem(R.mipmap.punkt_done, "18.1.2019 - 4.3.2019", "Hüftuntersuchung"));
+        exampleList.add(new ExampleItem(R.mipmap.punkt_done, "11.10.2018 - 11.11.2018", "Ultraschalluntersuchung"));  //Line 1 und Line 2 sind dann Datum und Untersuchung
+        exampleList.add(new ExampleItem(R.mipmap.punkt_progress, "18.1.2019 - 4.3.2019", "Hüftuntersuchung"));
+        exampleList.add(new ExampleItem(R.mipmap.punkt_undone, "18.1.2019 - 4.3.2019", "Hüftuntersuchung"));
+        exampleList.add(new ExampleItem(R.mipmap.punkt_undone, "18.1.2019 - 4.3.2019", "Hüftuntersuchung"));
+        exampleList.add(new ExampleItem(R.mipmap.punkt_undone, "11.10.2018 - 11.11.2018", "Ultraschalluntersuchung"));  //Line 1 und Line 2 sind dann Datum und Untersuchung
+        exampleList.add(new ExampleItem(R.mipmap.punkt_undone, "18.1.2019 - 4.3.2019", "Hüftuntersuchung"));
+        exampleList.add(new ExampleItem(R.mipmap.punkt_undone, "18.1.2019 - 4.3.2019", "Hüftuntersuchung"));
+        exampleList.add(new ExampleItem(R.mipmap.punkt_undone_end, "18.1.2019 - 4.3.2019", "Hüftuntersuchung"));
 
         mRecyclerView = findViewById(R.id.recyclerView);
         mRecyclerView.setHasFixedSize((true));
